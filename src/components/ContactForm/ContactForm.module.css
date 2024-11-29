@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  border: 1px solid #1556da72;
+  padding: 20px 5px;
+  background-color: #00b06712;
+  border-radius: 10px;
+}
+
+.formButton {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1dc8;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 50%;
+  transition: background-color, color, transform 350ms, 350ms,
+    350ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.formButton:hover {
+  background-color: #6f09bc;
+  color: rgba(255, 255, 255, 0.874);
+  transform: scale(1.05);
+}
+
+.field {
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  outline: none;
+  border: 2px solid #253ede;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.errors {
+  color: rgb(255, 95, 95);
+}
